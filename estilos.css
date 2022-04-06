@@ -1,0 +1,381 @@
+@font-face {
+  font-family: "MadelynFill-Trial-Regular";
+  src: url("fonts/Madelyn/MadelynFill-Trial-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Phenomena-Regular";
+  src: url("fonts/Phenomena/Phenomena-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Noah-Bold";
+  src: url("fonts/Noah/Noah-Bold.ttf");
+}
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navegacion {
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  /* margin: 0px 150px 0px 150px; */
+  padding: 0px 150px 0px 150px;
+  background-color: #f8f7ed;
+}
+
+.logo {
+  padding: 0%;
+  margin: 0%;
+  font-family: MadelynFill-Trial-Regular;
+  font-size: 50px;
+}
+
+.saludo {
+  margin: 0%;
+  padding: 0%;
+  font-size: 80px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+}
+
+.mail {
+  font-family: Noah-Bold;
+  color: rgb(243, 57, 57);
+  font-size: 20px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  margin: auto;
+  /* margin-right: 50px; */
+  /* align-content: space-between; */
+  justify-content: space-between;
+}
+.men {
+  /* align-content: spac; */
+  margin: 0px 50px 0px 50px;
+  color: black;
+  font-family: Noah-Bold;
+  text-decoration: none;
+  /* margin-right: 50px; */
+  font-size: 20px;
+  color: rgb(41, 41, 66);
+}
+
+.men > a {
+  text-decoration: none;
+}
+
+.contacto {
+  display: flex;
+  align-items: center;
+}
+
+/* .btn {
+  background-image: url("images/phone.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 20px 20px;
+  border-radius: 50%;
+
+  width: 50px;
+  height: 50px;
+ 
+} */
+
+/* .img-btn {
+  padding: 0%;
+  margin: 0%;
+  height: 15px;
+  width: 20px;
+  margin-left: 30px;
+} */
+
+.btn-cal{
+  padding: 20px;
+  font-size: 20px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  
+  background-color:silver;
+}
+
+.header {
+  /* background-image: url("images/linus_header.jpg"); */
+  background-image: url("images/person.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 500px auto;
+  /* background-repeat: repeat-x; */
+  /* background-color: aqua; */
+  /* width: 500px; */
+  /* height: 500px; */
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: space-between;
+  /* padding: 0px 150px 0px 150px; */
+  /* padding-left: 150px; */
+  /* padding-right: 150px; */
+  background-color: #f8f7ed;
+}
+
+.years-exp {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.years {
+  /* font-size: 60px; */
+  font-family: Noah-Bold;
+  color: rgb(56, 53, 83);
+  font-size: 60px;
+  margin: 0%;
+  padding-right: 10px;
+}
+
+.year-xp {
+  font-family: Noah-Bold;
+  color: rgb(56, 53, 83);
+  font-size: 18px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.izq {
+  display: flex;
+  /* justify-content:end; */
+  /* align-items:center; */
+  justify-content: space-between;
+  flex-direction: column;
+  margin-left: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.dere {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  margin-right: 100px;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  align-items: flex-end;
+  /* justify-items: end; */
+}
+
+.dere p {
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+
+  /* margin: 0%;
+  padding: 0%; */
+  width: 250px;
+}
+
+.certif {
+  height: 175px;
+  width: 175px;
+}
+
+/* aqui empieza la seccion de what do i help? */
+.container2 {
+  display: flex;
+  justify-content: space-between;
+  /* flex-direction: column; */
+  /* justify-content: center; */
+  /* justify-content: center; */
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.cuadro {
+  /* background-color: blueviolet; */
+  height: 140px;
+  width: 400px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(241, 239, 239);
+  border-radius: 20px;
+}
+
+.izq-2 {
+  /* margin-right: 200px; */
+}
+
+.dere-2 {
+  /* margin-left: 100px; */
+  /* align-items: flex-end; */
+  width: 471px;
+  padding-right: 40px;
+  /* display: flex; */
+}
+
+.text-box {
+  /* margin-left: 25px; */
+  padding: 0%;
+  margin: 0%;
+  color: rgb(29, 29, 94);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: Noah-Bold;
+}
+
+.text-side {
+  margin: 0%;
+  padding: 0%;
+  font-size: 18px;
+  color: rgb(29, 29, 94);
+  font-family: Noah-Bold;
+}
+
+.txt-box {
+  display: block;
+  margin-left: 25px;
+  /* justify-content:flex-start; */
+  /* align-items: flex-start; */
+}
+
+.imagen {
+  /* height: 140px;
+  width: 400px;
+  margin-bottom: 15px;
+  padding-left: 30px;
+  display: flex;
+  align-items: center;
+  border: 2px solid rgb(241, 239, 239);
+  border-radius: 20px;  */
+}
+
+.my_subtitles1 {
+  margin-top: 0%;
+  margin-bottom: 20px;
+  padding: 0%;
+  font-size: 70px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+}
+
+.my_text2 {
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+  line-height: 40px;
+}
+
+.my_subtitles {
+  margin: 0%;
+  padding-top: 30px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+  font-size: 70px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+  line-height: 60px;
+}
+
+.text-proyec {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* section de My work experience */
+.sec-work-exp {
+  background-color: #f8f7ed;
+  padding-top: 50px;
+}
+
+.img-div {
+  width: 100px;
+  height: 590px;
+}
+
+.txt-exp {
+  text-align: center;
+  margin: 0%;
+  padding-top: 30px;
+  padding-bottom: 0%;
+  margin-bottom: 5%;
+  font-size: 70px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+  line-height: 60px;
+}
+
+.colum-3 {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  /* margin-top: 100px; */
+}
+
+.txt-dere,
+.txt-izq {
+  width: 35%;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+
+.txt-izq {
+  /* margin-right: 0px; */
+  /* padding-left: 60px; */
+}
+.txt-izq div {
+  /* padding-left: 500px; */
+  /* text-align: left; */
+  padding: 0%;
+  margin: 0%;
+  color: rgb(29, 29, 94);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: Noah-Bold;
+}
+
+.txt-izq span {
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+  line-height: 40px;
+}
+
+.txt-dere div {
+  padding: 0%;
+  margin: 3%;
+  color: rgb(29, 29, 94);
+  font-size: 28px;
+  text-decoration: none;
+  font-family: Noah-Bold;
+}
+
+.txt-dere span {
+  margin: 0%;
+  padding: 0%;
+  font-size: 20px;
+  font-family: Noah-Bold;
+  color: rgb(41, 41, 66);
+  line-height: 40px;
+}
